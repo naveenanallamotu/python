@@ -1,7 +1,5 @@
-import collections #importing collection lib
-
-unordict = {'wheat':10,'bread':20,'happy':50,'game':60} # declaring a dictnoary
-print(unordict)                                         #printing it
-
-ordered_dict = collections.OrderedDict(sorted(unordict.items())) # orderdinng them with sorted by its key
-print(ordered_dict)
+import collections      #importing collections
+key_value_pairs={'age':40,'name':'naveena', 'university':'umkc'} # dictionary
+print("autualdict",key_value_pairs)
+happy=collections.OrderedDict(key_value_pairs)  #by using orderedDict
+print(happy)
